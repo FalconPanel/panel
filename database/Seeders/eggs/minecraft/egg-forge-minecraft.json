@@ -1,12 +1,12 @@
 {
-    "_comment": "DO NOT EDIT: FILE GENERATED AUTOMATICALLY BY PTERODACTYL PANEL - PTERODACTYL.IO",
+    "_comment": "DO NOT EDIT: FILE GENERATED AUTOMATICALLY BY FALCON PANEL - FALCON.NETLIFY.APP",
     "meta": {
         "version": "PTDL_v2",
         "update_url": null
     },
     "exported_at": "2024-05-07T12:55:56+00:00",
     "name": "Forge Minecraft",
-    "author": "support@pterodactyl.io",
+    "author": "support.falcon@gmail.com",
     "description": "Minecraft Forge Server. Minecraft Forge is a modding API (Application Programming Interface), which makes it easier to create mods, and also make sure mods are compatible with each other.",
     "features": [
         "eula",
@@ -14,6 +14,7 @@
         "pid_limit"
     ],
     "docker_images": {
+        "Java 22": "ghcr.io\/pterodactyl\/yolks:java_22",
         "Java 21": "ghcr.io\/pterodactyl\/yolks:java_21",
         "Java 17": "ghcr.io\/pterodactyl\/yolks:java_17",
         "Java 16": "ghcr.io\/pterodactyl\/yolks:java_16",
